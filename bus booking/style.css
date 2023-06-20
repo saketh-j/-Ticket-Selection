@@ -1,0 +1,110 @@
+.heading{
+   text-align: center;
+   margin-bottom: 20px;
+   border-bottom: 1px solid;
+}
+.side-card{
+    border: 1px solid ;
+    width: 250px;
+    height: 300px;
+    right: 50;
+    border-radius: 5px;
+}
+.card-title{
+    border-bottom: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content:center;  
+}
+
+.containers{
+    width: 300px;
+    height: 700px;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.deck-name{
+    padding-bottom: 5px;
+    font-weight: 500;
+    border-bottom: 1px solid;
+}
+.main-child{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 50px;
+    height: 95px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 5px;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    justify-content:space-between;
+}
+.box {
+    width: 50px;
+    cursor: pointer;
+    height: 95px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 5px;
+}
+.price-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.seat-no{
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 25px;
+}
+.price{
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+        color: black;
+    font-size:20px;
+    padding-right: 25px;
+}
+.center-btn{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    color: white;
+    background-color: darkslateblue;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 450px 10px 450px;
+}
+.content{
+    display: flex;
+    justify-content:space-evenly;
+}
+.sb{
+    border-radius: 3px;
+    border: 1px solid;
+    width: 28px;
+    height: 40px;
+}
+.sb-1{
+    background-color:#90EE90;
+    border-radius: 3px;
+    border: 1px solid;
+    width: 28px;
+    height: 40px;
+}
+.text{
+    font-size: 13px;
+    padding-top: 7px;
+}
+

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+     <h2 class="heading">Bus Travels</h2>
+    <div class="main">
+        <div class="side-card">
+              <h6 class="card-title">Know about Seat types</h6>
+              <div class="content">
+                <div>
+                    <div class="sb border border-success"></div>
+                </div>
+                <div>
+                    <h6 class="text">Available Seats</h6>
+                </div>
+              </div>
+              <br>
+              <div class="content">
+                <div>
+                    <div class="sb border border-info "></div>
+                </div>
+                <div>
+                    <h6 class="text">Seats for women</h6>
+                </div>
+              </div>
+              <br>
+              <div class="content">
+                <div>
+                    <div class="sb-1 "></div>
+                </div>
+                <div>
+                    <h6 class="text">Seats selected <br>
+                       by you</h6>
+                </div>
+              </div>
+              <br>
+              <div class="content">
+                <div>
+                    <div class="sb border bg-light "></div>
+                </div>
+                <div>
+                    <h6 class="text">Seats Already <br>Booked</h6>
+                </div>
+              </div>
+        </div>
+       <div class="containers">
+             <div>
+                <h5 class="deck-name">Upper deck</h5>
+             </div>
+             <div class="main-child">
+                <div class="left">
+                     <div class="box border border-success" id="box1"></div>
+                </div>
+                <div class="right">
+                    <div class="box border border-success" id="box2"  > </div>
+                    <div class="box border border-success"> </div>
+                </div>
+             </div>
+             <div class="main-child">
+                <div class="left">
+                     <div class="box border border-success" id="box3"></div>
+                </div>
+                <div class="right">
+                    <div class="box border border-success" id="box4"> </div>
+                    <div class="box border border-info" id="box5"> </div>
+                </div>
+             </div>
+             <div class="main-child">
+                <div class="left">
+                     <div class="box"></div>
+                </div>
+                <div class="right">
+                    <div class="box border border-success"> </div>
+                    <div class="box border border-info"> </div>
+                </div>
+             </div>
+             <div class="main-child">
+                <div class="left">
+                     <div class="box border border-success"></div>
+                </div>
+                <div class="right">
+                    <div class="box border border-success"> </div>
+                    <div class="box border border-info"> </div>
+                </div>
+             </div>
+             <div class="main-child">
+                <div class="left">
+                     <div class="box border border-info"></div>
+                </div>
+                <div class="right">
+                    <div class="box border border-success"> </div>
+                    <div class="box border border-info"> </div>
+                </div>
+             </div>
+             <div class="main-child">
+                <div class="left">
+                     <div class="box border border-info"></div>
+                </div>
+                <div class="right">
+                    <div class="box border border-light bg-light"> </div>
+                    <div class="box border border-light bg-light"> </div>
+                </div>
+             </div>
+       </div>
+       <div class="containers">
+        <div>
+            <h5 class="deck-name">Lower deck</h5>
+         </div>
+         <div class="main-child">
+            <div class="left">
+                 <div class="box border border-light bg-light"></div>
+            </div>
+            <div class="right">
+                <div class="box border border-success"> </div>
+                <div class="box border border-info"> </div>
+            </div>
+         </div>
+         <div class="main-child">
+            <div class="left">
+                 <div class="box"></div>
+            </div>
+            <div class="right">
+                <div class="box border border-info"> </div>
+                <div class="box border border-light bg-light"> </div>
+            </div>
+         </div>
+         <div class="main-child">
+            <div class="left">
+                 <div class="box border border-success"></div>
+            </div>
+            <div class="right">
+                <div class="box border border-success"> </div>
+                <div class="box border border-success"> </div>
+            </div>
+         </div>
+         <div class="main-child">
+            <div class="left">
+                 <div class="box border border-success"></div>
+            </div>
+            <div class="right">
+                <div class="box border border-success"> </div>
+                <div class="box border border-info"> </div>
+            </div>
+         </div>
+         <div class="main-child">
+            <div class="left">
+                 <div class="box border border-success"></div>
+            </div>
+            <div class="right">
+                <div class="box border border-success"> </div>
+                <div class="box border border-info"> </div>
+            </div>
+         </div>
+         <div class="main-child">
+            <div class="left">
+                 <div class="box border border-success"></div>
+            </div>
+            <div class="right">
+                <div class="box border border-success"> </div>
+                <div class="box border border-success"> </div>
+            </div>
+         </div>
+       </div>  
+    </div>
+    <div class="price-section">
+        <div class="seat-no" id="seat-num"></div>
+         <div class="price" id="money"></div>
+    </div>
+    <div class="center-btn">
+        <button class="button" onclick="booked()">Continue</button>
+    </div>
+       
+    <script src="index.js"></script>
+</body>
+</html>
